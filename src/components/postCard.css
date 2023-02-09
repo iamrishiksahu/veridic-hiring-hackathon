@@ -1,0 +1,44 @@
+.postCardContent{
+    max-width: 30vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px 0 #e1e1e1;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    gap: 1.5rem;
+    transition: 200ms;
+}
+
+.postCardContent:hover {
+    transform: scale(1.02);
+}
+
+.metaContainer{
+    display: block;
+    align-items: end;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.authorName {
+    color: #444;
+}
+.dateText {
+    font-size: 0.75rem  ;
+}
+
+.featuredImage{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .postCardContent{
+        max-width: 60vw;
+    }
+}
+
+
